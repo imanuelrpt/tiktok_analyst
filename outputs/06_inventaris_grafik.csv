@@ -1,0 +1,11 @@
+﻿file,judul,sumbu_x,sumbu_y,interpretasi
+04_distribusi_views.png,Distribusi Views (Skala Log10),log10(views),Jumlah video,"Mean tertarik ke kanan oleh sedikit video viral, sehingga median lebih mewakili video umum."
+04_durasi_vs_like_rate.png,Like Rate Median per Kelompok Durasi,Kelompok durasi,Like rate median (%),Durasi 15-30 detik memiliki like rate median tertinggi sekaligus median views tertinggi di antara kelompok berdurasi jelas.
+04_hari_posting.png,Like Rate Median per Hari Posting,Hari posting,Like rate median (%),"Rabu punya like rate median terendah dengan sampel terbanyak, sedangkan Selasa tertinggi dengan sampel lebih sedikit."
+04_jam_posting.png,Like Rate Median per Jam Posting,Jam posting (zona waktu tidak tercantum),Like rate median (%),"Jam 22 menyumbang sampel paling banyak dengan like rate rendah, kemungkinan artefak pengumpulan data."
+04_top_hashtag.png,Top 10 Hashtag berdasarkan Like Rate Median (n >= 5),Like rate median (%),Hashtag,Hashtag dengan like rate tinggi belum tentu paling sering dipakai.
+04_kategori_konten.png,Like Rate Median per Kategori Konten (Heuristik Kata Kunci),Like rate median (%),Kategori (dari hashtag + caption),"Kategori ini tesaurus buatan sendiri dan cakupannya terbatas, bukan label resmi TikTok."
+04_follower_vs_like_rate.png,Like Rate Median per Tingkat Follower,Jumlah follower akun,Like rate median (%),Korelasi followers dengan like_rate lemah meski tier teratas punya median tertinggi.
+04_top1pct_vs_sisanya.png,Perbandingan 1% Video Teratas (berdasarkan views) vs Sisanya,Grup,Views (median) dan like rate median (%),Delapan video teratas menyumbang porsi besar total views dengan like rate median sedikit lebih tinggi.
+05_bootstrap_durasi.png,Median Like Rate per Durasi dengan Interval Kepercayaan Bootstrap 95%,Like rate median (%),Kelompok durasi,"Interval 15-30 detik seluruhnya di atas interval ≥60 detik, jadi perbedaan sulit dijelaskan kebetulan sampel."
+05_sensitivitas_top1pct.png,Sensitivitas Like Rate Median: Data Lengkap vs Tanpa 1% Video Teratas,Kelompok durasi,Like rate median (%),"Membuang delapan video viral mengubah median maksimal 0,06 poin persen."

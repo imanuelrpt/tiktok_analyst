@@ -1,0 +1,5 @@
+﻿duration_group,n_lengkap,median_pct_lengkap,n_tanpa_top1,median_pct_tanpa_top1,selisih_poin
+<15 detik,164,6.55,160,6.55,0.0
+15-30 detik,133,7.6,132,7.66,0.06
+30-60 detik,93,5.75,93,5.75,0.0
+≥60 detik,345,4.0,342,3.98,-0.02

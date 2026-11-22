@@ -1,0 +1,5 @@
+﻿durasi,n,median_pct,ci_bawah_pct,ci_atas_pct
+<15 detik,164,6.55,5.7,7.5
+15-30 detik,133,7.6,6.31,8.95
+30-60 detik,93,5.75,4.61,6.74
+≥60 detik,345,4.0,3.74,4.36

@@ -1,0 +1,11 @@
+﻿kolom,tipe_data,non_null,missing,persen_missing,nilai_unik
+id_video,int64,760,0,0.0,760
+duration_seconds,float64,751,9,1.2,141
+text_part,str,658,102,13.4,623
+hashtags,str,696,64,8.4,536
+human_time,str,751,9,1.2,470
+author_followers,float64,751,9,1.2,426
+author_likes,float64,749,11,1.4,396
+id_sound,string,751,9,1.2,668
+views,float64,751,9,1.2,611
+likes,float64,751,9,1.2,649

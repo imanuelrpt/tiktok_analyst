@@ -1,0 +1,12 @@
+# Kredensial Kaggle: JANGAN pernah di-commit
+kaggle.json
+
+# Data mentah tidak disimpan di repo (lisensi + ukuran + privasi)
+data/*
+!data/.gitkeep
+*.zip
+
+# File sementara
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

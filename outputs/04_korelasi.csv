@@ -1,0 +1,7 @@
+﻿pasangan,spearman_rho
+duration_sec vs like_rate,-0.208
+views vs likes,0.954
+author_followers vs views,0.34
+author_followers vs like_rate,0.1
+n_hashtags vs like_rate,-0.099
+caption_length vs like_rate,-0.145

@@ -1,0 +1,12 @@
+﻿keputusan,jumlah_baris_terdampak,alasan,dampak
+Hapus baris yang semua kolom intinya kosong,9,"Tanpa durasi, waktu, followers, views, dan likes baris ini tidak bisa dipakai untuk pertanyaan apa pun",Baris tersisa 751 dari 760
+Ubah durasi 0 detik menjadi missing (baris tidak dihapus),16,"0 detik diduga kode untuk ""tidak tercatat""; metrik interaksi pada baris ini tetap valid","Analisis durasi memakai kelompok ""tidak diketahui""; analisis views/likes tetap memakai baris ini"
+Ubah human_time menjadi posted_at (datetime),751,Diperlukan untuk jam dan hari posting; format asli sudah YYYY-MM-DD HH:MM:SS,Gagal parse: 0 baris; jam/hari menjadi kosong pada baris tersebut
+"Buat kelompok durasi (<15, 15-30, 30-60, ≥60 detik)",751,Memudahkan perbandingan; nilai 60 detik masuk kelompok ≥60,"Kelompok ""tidak diketahui"" dipakai untuk durasi 0/missing"
+"Hashtag: trim, lowercase, hapus #, deduplikasi per baris",751,Agar pengelompokan tidak terpecah karena beda huruf/spasi,Kolom hashtags_clean dipakai untuk analisis; jumlah hashtag dihitung unik
+Hashtag kosong dianggap 0 hashtag,55,Deskripsi Kaggle menyebut kolom hashtag bersifat optional,"n_hashtags = 0, bukan missing"
+"Tutup @akun, kontak, dan nomor di caption dengan [AKUN]/[NOMOR]",65,Aturan portofolio: tidak menyimpan nama akun asli atau URL profil,Teks tetap usable untuk kata kunci; contoh mentah tidak dipakai di laporan
+Caption kosong dianggap teks panjang 0,93,Kolom caption bersifat optional pada dataset,caption_length = 0 untuk baris tanpa caption
+Buat like_rate = likes/views sebagai proxy,751,Engagement rate definisi awal butuh comments & shares yang tidak tersedia,"Disebut proxy, bukan engagement rate; share_rate/comment_rate tidak dibuat"
+"Outlier views tidak dihapus (batas IQR 5,141,925)",132,Video viral adalah bagian dari pertanyaan utama; menghapusnya akan menghilangkan fenomena yang diteliti,"EDA memakai median, persentil, log skala, dan perbandingan top 1%"
+"Outlier likes tidak dihapus (batas IQR 379,916)",121,Video viral adalah bagian dari pertanyaan utama; menghapusnya akan menghilangkan fenomena yang diteliti,"EDA memakai median, persentil, log skala, dan perbandingan top 1%"

@@ -1,0 +1,9 @@
+﻿no,pertanyaan,status,ringkasan_jawaban,batasan
+1,Jenis konten dengan views/likes tertinggi,Sebagian,"Hashtag paling sering fyp pada 228 video; like rate tertinggi summer 14,23% (n=11)",Tanpa comments/shares; kategori buatan sendiri hanya menjangkau 31.7% video
+2,Durasi vs tingkat interaksi,Sebagian,"15-30 detik 7,60% vs ≥60 detik 4,00%; signifikan=True, tapi hanya 2 dari 5 tahun yang konsisten",like_rate adalah proxy; pola tidak konsisten antar tahun
+3,Jam & hari posting,Bisa dengan syarat,"Selasa 7,02% (n=68), Rabu 3,82% (n=236); jam 22 n=173 like rate 3,59%","Zona waktu tidak ada; jam 22 diduga artefak pengumpulan, bukan rekomendasi"
+4,"Hashtag, sound, kata kunci caption",Sebagian,"Item stabil di beberapa ambang: 2 ID audio anonim + csgo, trend; kata caption tidak ada yang mencapai ambang 5 video",Asosiasi bukan sebab-akibat; caption sudah disamarkan
+5,Follower vs engagement rate,Sebagian,"Tier ≥1 jt follower like rate 7,26% (n=99); Spearman followers vs like_rate 0,100",Engagement rate definisi awal tidak bisa dihitung
+6,"Perbedaan bahasa/wilayah, fokus Indonesia",Tidak bisa dijawab,Tidak dijawab,"Tidak ada kolom bahasa, negara, atau region"
+7,Jenis interaksi dominan per konten,Tidak bisa dijawab,Tidak dijawab,Tidak ada kolom comments dan shares
+8,Rekomendasi untuk kreator/brand,Bisa dengan keterbatasan,Uji eksperimen format 15-30 detik dan hashtag ber-like-rate tinggi; jangan pakai jam posting sebagai rekomendasi,Bukan bukti sebab-akibat; perlu validasi pada data baru

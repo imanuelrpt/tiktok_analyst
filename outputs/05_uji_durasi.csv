@@ -1,0 +1,4 @@
+﻿perbandingan,p_mentah,p_bonferroni,signifikan_0.05
+<15 detik vs 15-30 detik,0.069796,0.209388,False
+15-30 detik vs ≥60 detik,0.0,0.0,True
+<15 detik vs ≥60 detik,0.000851,0.002553,True

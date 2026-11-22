@@ -1,0 +1,2 @@
+﻿nama_file,judul_dataset,url_kaggle,lisensi,cara_pengumpulan,rentang_tanggal,catatan
+tiktok_data.csv,TikTok Video Metadata,https://www.kaggle.com/datasets/maratsaratov/tiktok-data,Apache 2.0,Tidak dijelaskan rinci di halaman Kaggle; hanya disebut metadata video TikTok nyata dari berbagai topik dan wilayah,2015-07-10 s/d 2025-06-14 (berdasarkan human_time yang berhasil di-parse),"Snapshot; tanpa komentar, share, bahasa, wilayah, dan usia penonton"

@@ -1,0 +1,7 @@
+﻿temuan,hasil,status
+Median like_rate seluruh data,4.84% (CI 4.58% - 5.35%),Presisi
+15-30 detik vs ≥60 detik,Bonferroni signifikan: True,Uji peringkat
+Tahan terhadap pengecualian top 1%,Perubahan maksimal 0.06 poin persen,Sensitivitas outlier
+Item interaksi tinggi stabil,"6704972818695587842, 7497428638682336046, csgo, trend",Sensitivitas ambang
+Efek durasi bukan efek follower,Konsisten di semua tier,Kontrol variabel
+Efek durasi stabil antar tahun,2 dari 5 tahun,Kontrol tahun
